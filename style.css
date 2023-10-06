@@ -1,18 +1,23 @@
 .card {
     width: 350px;
     min-height: 230px;
-    border: 5px solid grey;
+    border-bottom: 4px solid blue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 16px
+}
+.card:hover{
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .picture-section {
     height: 150px;
-    postion: relative;
+    position: relative;
 }
 .picture {
     width: 350px;
     height: 150px;
 }
 .update{
-    background-color: rgba(45, 55 72, 0.67);
+    background-color: #2D3748;
     color: white;
     position: absolute;
     padding: 4px 8px;
@@ -26,7 +31,7 @@
 }
 .info {
     padding: 8px;
-    color: black;
+    color: #2D3748;
 }
 .listing {
     display: flex;
@@ -40,9 +45,14 @@
 }
 .address {
     font-weight:bold;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
 }
-.card {
-    width: 350px;
-    min-height: 230px
+.type {
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+.card-area{
+    display:flex;
 }
